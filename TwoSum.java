@@ -1,4 +1,4 @@
-class TwoSum {
+public class TwoSum {
     public static void main(String args[]) {
         // Create Instances of the TestCase Class
         TestCase t1 = new TestCase(new int[]{2, 7, 11, 15}, 9);
@@ -11,7 +11,7 @@ class TwoSum {
         /* Even though the twoSum() method can directly consume
          * the instance of the TestCase class and directly alter
          * the value of the result member of the TestCase object,
-         * the following is done since LeetCode only expect the 
+         * the following is done since LeetCode only expects the 
          * solution function and nothing else.
          */
         t1.result = s.twoSum(t1.nums, t1.target);
